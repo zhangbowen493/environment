@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1980FF</color>
+    <color name="colorPrimaryDark">#1980FF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="activityBackground">#F6F6F6</color>
+	<color name="lineColor">#ececec</color>
+
+    <color name="blue_1">#197ffd</color>
+    <color name="gray_1">#888888</color>
+
+    <color name="orange_1">#FF432F</color>
+    <color name="white_1">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorTitle">#666</color>
+    <color name="Textcolor">#333</color>
+    <!--首页item文字颜色-->
+    <color name="colorSubtitle">#999</color>
+    <color name="transparent">#00000000</color>
+</resources>

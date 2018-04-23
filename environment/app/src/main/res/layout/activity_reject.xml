@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    android:orientation="vertical"
+    tools:context="com.huaxin.yunnan.environment.activity.todo.RejectActivity">
+
+    <include layout="@layout/top_title"/>
+
+    <TextView
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:text="通知方式"
+        android:textColor="@color/Textcolor"
+        android:textSize="@dimen/text_size_normal"
+        />
+    <View
+        style="@style/ViewItemLine_todo"
+        />
+    <RelativeLayout
+        android:visibility="gone"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_1"
+        android:padding="@dimen/layout_margin_12">
+
+        <TextView
+            style="@style/TextView_todo"
+            android:text="消息"/>
+
+        <CheckBox
+            android:id="@+id/cb_message"
+            style="@style/TextView_todo"
+            android:layout_alignParentRight="true"
+            android:button="@drawable/selector_check_todo"
+            />
+
+    </RelativeLayout>
+    <View
+        style="@style/ViewItemLine_todo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:text="常用办理意见"
+        android:textColor="@color/Textcolor"
+        android:textSize="@dimen/text_size_normal"
+        />
+    <View
+        style="@style/ViewItemLine_todo"
+        />
+    <RelativeLayout
+        android:id="@+id/rl_disagree"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white_1"
+        android:padding="@dimen/layout_margin_12">
+
+        <TextView
+            style="@style/TextView_todo"
+            android:text="不同意"/>
+
+        <CheckBox
+            android:id="@+id/cb_disagree"
+            style="@style/TextView_todo"
+            android:layout_alignParentRight="true"
+            android:button="@drawable/selector_check_todo"
+            />
+
+    </RelativeLayout>
+    <View
+        style="@style/ViewItemLine_todo"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:background="@drawable/et_line"
+        android:padding="5dp"
+        >
+
+        <EditText
+            android:gravity="top"
+            android:id="@+id/et_more"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="您还可以说点什么..."
+            android:background="@null"
+            android:textSize="@dimen/text_size_normal"
+            android:maxLength="200"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:gravity="center"
+        android:text="确 定"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/white_1"
+        android:textSize="@dimen/text_size_normal"
+        android:background="@drawable/bt_background"
+        />
+</LinearLayout>

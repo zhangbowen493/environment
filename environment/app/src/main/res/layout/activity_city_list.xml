@@ -1,0 +1,112 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#F6F6F6"
+              tools:context="com.huaxin.yunnan.environment.activity.LoginActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:background="#1980FF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_marginLeft="@dimen/layout_margin_12"
+            android:layout_marginRight="@dimen/layout_margin_14"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/searchbox"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_13"
+                android:src="@drawable/search_icon"/>
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginLeft="6dp"
+                android:hint="输入城市名称或拼音查询"
+                android:textSize="@dimen/text_size_small"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:layout_marginTop="@dimen/layout_margin_8"
+        android:background="@color/white_1"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:id="@+id/tv_city_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_12"
+            android:text="昆明"
+            android:textSize="@dimen/text_size_huge"
+            />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_8"
+            android:text="GPS定位"
+            android:textColor="@color/gray_1"
+            android:textSize="@dimen/text_size_normal"
+            />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/dialog"
+            android:layout_width="60dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:background="#606060"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:visibility="gone"
+            tools:visibility="visible" />
+
+        <ImageView
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@drawable/citylist_star"
+            android:layout_gravity="right"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            />
+        <com.huaxin.yunnan.environment.activity.citylist.SideBar
+            android:id="@+id/sidrbar"
+            android:layout_width="24dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginTop="18dp"/>
+    </FrameLayout>
+
+    <ListView
+        android:id="@+id/country_lvcountry"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:divider="@null"
+        android:scrollbars="none"/>
+</LinearLayout>

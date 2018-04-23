@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.huaxin.yunnan.environment.activity.pollution.EnvitronmentAttributeActivity">
+<include layout="@layout/top_title"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="污染源编号："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/wrybh"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="流域代码："
+        android:textSize="14sp"
+        android:textColor="#666666" />
+
+
+    <TextView
+        android:id="@+id/lydm"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="start|center_vertical"
+        android:text=""
+        android:textSize="14sp"
+        android:textColor="#333333"
+        />
+</LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="水域功能区级别："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/sygnqjb"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="噪声功能区级别："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/zsgnqjb"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="空气功能区级别："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/kqgnqjb"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="海域功能区级别："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/hygnqjb"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="是否水源区："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/sfsyq"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="水源保护区级别："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/sybhqjb"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="水源保护区代码："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/sybhqdm"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="是否SO2控制区："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/sfs02kzq"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+    <ImageView
+        android:layout_marginLeft="@dimen/layout_margin_12"
+        android:layout_marginRight="@dimen/layout_margin_12"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ececec"/>
+    <LinearLayout
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="是否酸雨控制区："
+            android:textSize="14sp"
+            android:textColor="#666666" />
+
+
+        <TextView
+            android:id="@+id/sfsykzq"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start|center_vertical"
+            android:text=""
+            android:textSize="14sp"
+            android:textColor="#333333"
+            />
+    </LinearLayout>
+
+</LinearLayout>

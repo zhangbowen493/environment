@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/activity_title_height"
+        android:background="#1980FF"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="9dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/searchbox"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_margin_13"
+                android:src="@drawable/search_icon" />
+
+            <EditText
+                android:id="@+id/et_search"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@null"
+                android:hint="搜索关键词"
+                android:textSize="@dimen/text_size_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.huaxin.yunnan.environment.refresh.RefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+
+        <ListView
+            android:id="@+id/lv_pollution_source"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null" />
+    </com.huaxin.yunnan.environment.refresh.RefreshLayout>
+</LinearLayout>

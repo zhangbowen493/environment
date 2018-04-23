@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rl_item"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+
+
+        <TextView
+            android:id="@+id/tv_visit_weibo_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="12dp"
+            android:gravity="center_vertical"
+            android:text="通用现场检查记录"
+            android:textColor="#333333"
+            android:textSize="14dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/right" />
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dip"
+            android:layout_marginLeft="12dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dip"
+            android:background="#ececec" />
+    </RelativeLayout>
+</LinearLayout>

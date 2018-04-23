@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.huaxin.yunnan.environment.activity.pollution.RecordActivity">
+
+    <include layout="@layout/top_title" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewTitlePrimary"
+                android:text="基本信息"
+                />
+
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="开始时间："
+                    />
+
+
+                <EditText
+                    android:id="@+id/DT_KSSJ"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="结束时间："
+                    />
+
+
+                <EditText
+                    android:id="@+id/DT_JSSJ"
+
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="地点："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_DD"
+
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="被检查单位名称："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_BJCDWMC"
+
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="组织机构代码证号："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_ZZJGDM"
+
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="检查人："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_JCR"
+
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="执法证号："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_ZFZH"
+
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="记录人："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_JLR"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="法定代表人："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_FDDBR"
+
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="现场负责人："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_XCFZR"
+
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="身份证号："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_SFZH"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="年龄："
+                    />
+
+
+                <EditText
+                    android:id="@+id/NB_NL"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="工作单位："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_GZDW"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="职务："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_ZW"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="与本案关系："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_YBAGX"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="地址："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_DZ"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="电话："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_DH"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="邮政编码："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_YZBM"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其他参加人姓名及工作单位："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_QTCJRXMYGZDW"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否确认证件："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_SFQRZJ"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否申请回避："
+                    />
+
+
+                <EditText
+                    android:id="@+id/VC_SFSQHB"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="企业概况："
+                    />
+
+
+                <EditText
+                    android:id="@+id/CL_QYGK"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环保手续及任务："
+                    />
+
+
+                <EditText
+                    android:id="@+id/CL_HBSXJRW"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="污染防治设施现场检查情况："
+                    />
+
+
+                <EditText
+                    android:id="@+id/CL_WRFZSSXCJCQK"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="卫生防护距离情况："
+                    />
+
+
+                <EditText
+                    android:id="@+id/CL_WSFHJLQK"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环境风险及应急管理情况："
+                    />
+
+
+                <EditText
+                    android:id="@+id/CL_HJFXJYJGLQK"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其他环保部门检查情况："
+                    />
+
+
+                <EditText
+                    android:id="@+id/CL_QTHBBMJCQK"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine" />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="存在主要问题："
+                    />
+
+
+                <EditText
+                    android:id="@+id/CL_CZZYWT"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+            <ImageView
+                style="@style/ViewItemLine"/>
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监察要求："
+                    />
+
+
+                <EditText
+                    android:id="@+id/CL_JCYQ"
+                    style="@style/EditTextRight"
+                    android:text="dfkfdjfjdjfdssd"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

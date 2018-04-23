@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/top_title"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:background="@color/colorPrimary"
+    android:orientation="horizontal">
+<LinearLayout
+    android:visibility="gone"
+    android:id="@+id/ll_no"
+    android:layout_width="37dp"
+    android:layout_height="47dp">
+    <ImageButton
+        android:focusable="false"
+        android:id="@+id/title_back"
+        android:layout_width="11dp"
+        android:layout_height="21dp"
+        android:layout_centerVertical="true"
+        android:layout_margin="13dp"
+        android:background="@null"
+        android:src="@drawable/back_image"
+        android:visibility="visible" />
+</LinearLayout>
+    <TextView
+        android:layout_marginLeft="13dp"
+        android:drawablePadding="13dp"
+        android:drawableLeft="@drawable/back_image"
+        android:id="@+id/title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/ll_no"
+        android:text="通讯录"
+        android:textColor="#ffffff"
+        android:textSize="17sp" />
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tv_right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/white_1"
+        android:layout_marginRight="18dp"
+        android:text="上传" />
+
+    <ImageView
+        android:id="@+id/iv_add"
+        android:layout_width="23dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/add_friend"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/tv_change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="编辑"
+        android:textSize="16sp"
+        android:textColor="@color/white_1"
+        android:layout_alignBaseline="@+id/title_text"
+        android:layout_marginRight="13dp"
+        android:visibility="gone"/>
+</RelativeLayout>

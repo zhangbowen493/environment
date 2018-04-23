@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#F6F6F6"
+              tools:context="com.huaxin.yunnan.environment.activity.LoginActivity">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_title_height"
+                android:background="@color/white_1">
+                <TextView
+                    android:id="@+id/tv_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="污染源基本信息"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/layout_margin_12"
+                    android:textSize="@dimen/text_size_huge"
+                    />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/layout_margin_13"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/right"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/layout_margin_12"/>
+            </RelativeLayout>
+
+
+</LinearLayout>

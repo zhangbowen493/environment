@@ -1,0 +1,133 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_margin_8"
+                android:background="@color/activityBackground"
+                />
+
+            <LinearLayout
+               style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="污染源编号："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_WRYBH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+               style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="序号："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_XH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="原辅材料名称："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_YFCLMC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="年用量："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_NYL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="单位："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_DW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="备注："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_BZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.huaxin.yunnan.environment.activity.pollution.NosiceSourceInfoActivity">
+    <include layout="@layout/top_title"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:background="#ffffff"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="污染源编号："
+                    android:textSize="14sp"
+                    android:textColor="#666666" />
+
+
+                <TextView
+                    android:id="@+id/wrybh"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center_vertical"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="#333333"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginRight="@dimen/layout_margin_12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ececec"/>
+            <LinearLayout
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="噪声源编号："
+                    android:textSize="14sp"
+                    android:textColor="#666666" />
+
+
+                <TextView
+                    android:id="@+id/zsybh"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center_vertical"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="#333333"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginRight="@dimen/layout_margin_12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ececec"/>
+            <LinearLayout
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="序号："
+                    android:textSize="14sp"
+                    android:textColor="#666666" />
+
+
+                <TextView
+                    android:id="@+id/xh"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center_vertical"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="#333333"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginRight="@dimen/layout_margin_12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ececec"/>
+            <LinearLayout
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="测点位置："
+                    android:textSize="14sp"
+                    android:textColor="#666666" />
+
+
+                <TextView
+                    android:id="@+id/cdwz"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center_vertical"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="#333333"
+                    />
+            </LinearLayout>
+            <ImageView
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginRight="@dimen/layout_margin_12"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#ececec"/>
+            <LinearLayout
+                android:background="#ffffff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="适用标准类型："
+                    android:textSize="14sp"
+                    android:textColor="#666666" />
+
+
+                <TextView
+                    android:id="@+id/sybzlx"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="start|center_vertical"
+                    android:text=""
+                    android:textSize="14sp"
+                    android:textColor="#333333"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

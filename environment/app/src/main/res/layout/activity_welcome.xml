@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.huaxin.yunnan.environment.activity.WelcomeActivity">
+
+    <!--<ImageView-->
+        <!--android:layout_width="172dp"-->
+        <!--android:layout_height="190dp"-->
+        <!--android:layout_marginLeft="94dp"-->
+        <!--android:layout_marginTop="192dp"-->
+        <!--android:src="@drawable/center" />-->
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="44dp"-->
+        <!--android:layout_marginLeft="120dp">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_icon"-->
+            <!--android:layout_width="34dp"-->
+            <!--android:layout_height="34dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:src="@drawable/begin_logo" />-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_toRightOf="@id/iv_icon"-->
+            <!--android:orientation="vertical"-->
+            <!--android:paddingLeft="10dp">-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="一起行动"-->
+                <!--android:textColor="#666666" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="共建环保生活"-->
+                <!--android:textColor="#666666"-->
+                <!--android:textSize="10sp" />-->
+        <!--</LinearLayout>-->
+
+    <!--</RelativeLayout>-->
+
+</LinearLayout>

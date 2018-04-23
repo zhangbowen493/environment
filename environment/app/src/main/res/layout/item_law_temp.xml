@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F6F6F6"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:layout_marginTop="@dimen/layout_margin_8"
+        android:background="@color/white_1"
+        android:paddingBottom="14dp"
+        android:paddingTop="@dimen/layout_margin_8">
+
+        <TextView
+            android:id="@+id/tv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="模板名称1"
+            android:textColor="@color/Textcolor"
+            android:textSize="15sp"
+            />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_margin_1"
+            android:layout_below="@+id/tv_top"
+            android:layout_marginTop="9dp"
+            android:background="@color/activityBackground"/>
+
+        <TextView
+            android:id="@+id/tv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/view"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="@dimen/layout_margin_12"
+            android:text="检查人："
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/text_size_normal"
+            />
+
+        <TextView
+            android:id="@+id/tv_mid_l"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_1"
+            android:layout_toRightOf="@+id/tv_1"
+            android:text="大毛"
+            android:textColor="@color/Textcolor"
+            android:textSize="@dimen/text_size_normal"
+            />
+
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/tv_mid_r"
+            android:layout_toLeftOf="@+id/tv_mid_r"
+            android:text="现场负责人："
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/text_size_normal"/>
+
+        <TextView
+            android:id="@+id/tv_mid_r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_1"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:text="二毛"
+            android:textColor="@color/Textcolor"
+            android:textSize="@dimen/text_size_normal"
+            />
+
+        <TextView
+            android:id="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:text="电话："
+            android:textColor="@color/colorTitle"
+            android:textSize="@dimen/text_size_normal"
+            />
+
+        <TextView
+            android:id="@+id/tv_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_3"
+            android:layout_toRightOf="@+id/tv_3"
+            android:text="13800138000"
+            android:textColor="@color/Textcolor"
+            android:textSize="@dimen/text_size_normal"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.huaxin.yunnan.environment.activity.maillist.MailListActivity">
+
+    <include layout="@layout/top_title" />
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/search"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/search_icon" />
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="260dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:background="@null"
+            android:hint="搜索部门"
+            android:textSize="@dimen/text_size_small" />
+    </LinearLayout>
+
+    <com.huaxin.yunnan.environment.refresh.RefreshLayout
+        android:id="@+id/refreshLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="8">
+
+        <ListView
+            android:id="@+id/lv_department"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.huaxin.yunnan.environment.refresh.RefreshLayout>
+
+</LinearLayout>

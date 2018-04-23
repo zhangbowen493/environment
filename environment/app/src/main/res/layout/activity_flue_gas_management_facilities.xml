@@ -1,0 +1,300 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_margin_8"
+                android:background="@color/activityBackground"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside"
+                >
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="污染源编号："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_WRYBH"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="净化装置编号："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_JHZZBH"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="净化装置名称："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_JHZZMC"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="规格型号："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_GGXH"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="设计处理能力(立方米/时)："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_SJCLNL"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="设计净化率："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_SJJHL"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="实测净化率："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_SCJJL"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="净化方法："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_JHFF"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="总投资额（万元）："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_ZTTE"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="固定资产原值(万元)："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_GDZCYZ"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="年运行费用(万元)："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_NYXFY"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="投运日期："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_TYRQ"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="设施运行状态："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_SSYXZT"
+                    style="@style/TextViewRight"
+                    />
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="排放口编号："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_PFKBH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="备注："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_BZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    android:orientation="vertical"
+    tools:context="com.huaxin.yunnan.environment.activity.todo.ResubmitActivity">
+
+    <include layout="@layout/top_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                style="@style/ViewItemLine_todo"
+                android:layout_marginTop="@dimen/layout_margin_8"
+                />
+
+            <RelativeLayout
+                android:id="@+id/rl_xzlc"
+                style="@style/Linearlayout_todo"
+                >
+
+                <TextView
+                    style="@style/TextView_todo"
+                    android:text="选择流程"
+                    />
+
+                <ImageView
+                    android:id="@+id/iv_right"
+                    android:layout_width="7dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/right"/>
+
+                <TextView
+                    android:id="@+id/tv_flow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/iv_right"
+                    android:text="请您先选择流程"
+                    android:textColor="#999"
+                    android:textSize="13sp"/>
+            </RelativeLayout>
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <RelativeLayout
+                style="@style/Linearlayout_todo"
+                >
+
+                <TextView
+                    style="@style/TextView_todo"
+                    android:text="选择环节"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_link"
+                    style="@style/TextView_todo"
+                    android:layout_alignParentRight="true"
+                    android:text=""
+                    />
+            </RelativeLayout>
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <RelativeLayout
+                style="@style/Linearlayout_todo"
+                >
+
+                <TextView
+                    style="@style/TextView_todo"
+                    android:text="选择办理人"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_transactor"
+                    style="@style/TextView_todo"
+                    android:layout_alignParentRight="true"
+                    android:text=""
+                    />
+            </RelativeLayout>
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <TextView
+                style="@style/TextView_todo"
+                android:layout_marginBottom="@dimen/layout_margin_8"
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginTop="@dimen/layout_margin_8"
+                android:text="通知方式"
+                />
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <RelativeLayout
+                android:clickable="true"
+                android:id="@+id/rl_interior_circulation"
+                style="@style/Linearlayout_todo"
+                >
+
+                <TextView
+                    style="@style/TextView_todo"
+                    android:text="内部流转"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cb_interior_circulation"
+                    style="@style/TextView_todo"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/selector_check_todo"
+                    />
+            </RelativeLayout>
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <TextView
+                style="@style/TextView_todo"
+                android:layout_marginBottom="@dimen/layout_margin_8"
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginTop="@dimen/layout_margin_8"
+                android:text="常用办理意见"
+                />
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <RelativeLayout
+                android:id="@+id/rl_sp"
+                android:clickable="true"
+                style="@style/Linearlayout_todo"
+                >
+
+                <TextView
+                    style="@style/TextView_todo"
+                    android:text="请审批"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cb_sp"
+                    style="@style/TextView_todo"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/selector_check_todo"
+                    />
+            </RelativeLayout>
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <RelativeLayout
+                android:id="@+id/rl_sh"
+                android:clickable="true"
+                style="@style/Linearlayout_todo"
+                >
+
+                <TextView
+                    style="@style/TextView_todo"
+                    android:text="请审核"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cb_sh"
+                    style="@style/TextView_todo"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/selector_check_todo"
+                    />
+            </RelativeLayout>
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <RelativeLayout
+                android:id="@+id/rl_sc"
+                android:clickable="true"
+                style="@style/Linearlayout_todo"
+                >
+
+                <TextView
+                    style="@style/TextView_todo"
+                    android:text="请审查"
+                    />
+
+                <CheckBox
+                    android:id="@+id/cb_sc"
+                    style="@style/TextView_todo"
+                    android:layout_alignParentRight="true"
+                    android:button="@drawable/selector_check_todo"
+                    />
+            </RelativeLayout>
+
+            <View
+                style="@style/ViewItemLine_todo"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="@dimen/layout_margin_12"
+                android:layout_marginRight="@dimen/layout_margin_12"
+                android:background="@drawable/et_line"
+                android:padding="5dp"
+                >
+
+                <EditText
+                    android:id="@+id/et_more"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="您还可以说点什么..."
+                    android:textSize="@dimen/text_size_normal"
+                    android:background="@null"
+                    android:maxLength="200"/>
+
+
+            </LinearLayout>
+
+        
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/layout_margin_12"
+            android:layout_marginRight="@dimen/layout_margin_12"
+            android:text="确 定"
+            android:layout_marginTop="35dp"
+            android:textColor="@color/white_1"
+            android:textSize="@dimen/text_size_normal"
+            android:background="@drawable/bt_background"
+
+            />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

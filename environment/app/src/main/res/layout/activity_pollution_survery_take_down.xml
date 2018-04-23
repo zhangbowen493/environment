@@ -1,0 +1,316 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F6F6F6"
+              android:orientation="vertical">
+
+    <include layout="@layout/top_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewTitlePrimary"
+                android:text="基本信息"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="开始时间："/>
+
+                <EditText
+                    android:id="@+id/DT_START_TIME"
+                    style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="结束时间："/>
+
+                <EditText
+                    android:id="@+id/DT_END_TIME"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="地点："/>
+
+                <EditText
+                    android:id="@+id/VC_LOCATION"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="询问人："/>
+
+                <EditText
+                    android:id="@+id/VC_XWR"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="执法号："/>
+
+                <EditText
+                    android:id="@+id/VC_ZFZH"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="记录人："/>
+
+                <EditText
+                    android:id="@+id/VC_JLR"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="组织机构代码："/>
+
+                <EditText
+                    android:id="@+id/VC_ZZJGDM"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="被询问人姓名："/>
+
+                <EditText
+                    android:id="@+id/VC_BXWRXM"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="身份证号码："/>
+
+                <EditText
+                    android:id="@+id/VC_SFZH"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="年龄："/>
+
+                <EditText
+                    android:id="@+id/NB_AGE"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="工作单位："/>
+
+                <EditText
+                    android:id="@+id/VC_GZDW"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="职务："/>
+
+                <EditText
+                    android:id="@+id/VC_DUTY"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="与本案关系："/>
+
+                <EditText
+                    android:id="@+id/VC_YBAGX"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="地址："/>
+
+                <EditText
+                    android:id="@+id/VC_ADDRESS"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="电话："/>
+
+                <EditText
+                    android:id="@+id/VC_TELEPHONE"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="邮政编码："/>
+
+                <EditText
+                    android:id="@+id/VC_YZBM"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其它参加人姓名及工作单位："/>
+
+                <EditText
+                    android:id="@+id/VC_QTCJTCXWRXMJGZDW"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环境监察类型："/>
+
+                <EditText
+                    android:id="@+id/VC_HJJCLX"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否确认证件："/>
+
+                <EditText
+                    android:id="@+id/VC_SFQRZJ"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否申请回避："/>
+
+                <EditText
+                    android:id="@+id/VC_SFSQHB"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="询问内容："/>
+
+                <EditText
+                    android:id="@+id/CL_XWNR"
+                   style="@style/EditTextRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

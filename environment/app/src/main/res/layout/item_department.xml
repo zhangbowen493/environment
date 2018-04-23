@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="9dp"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="9dp"
+        android:src="@drawable/ic_department" />
+
+    <TextView
+        android:id="@+id/tv_department_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="9dp"
+        android:text="技术支持"
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_department_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#666666" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textColor="#666666" />
+
+    <ImageView
+        android:layout_width="7dp"
+        android:layout_height="13dp"
+        android:layout_marginRight="12dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/right" />
+
+
+</LinearLayout>

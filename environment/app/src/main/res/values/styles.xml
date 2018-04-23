@@ -1,0 +1,172 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="YNProgressDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="no_title" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:clipToPadding">false</item>
+
+    </style>
+    <style name="welcome" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:windowBackground">@drawable/welcome</item>
+    </style>
+
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+
+    <style name="no_title.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="no_title.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="PopupWindowAnimation">
+        <item name="android:windowEnterAnimation">@anim/pubblico_activity_anim_bottom_in</item>
+        <item name="android:windowExitAnimation">@anim/pubblico_activity_anim_bottom_out</item>
+    </style>
+
+    <!--模板页面一级标题-->
+    <style name="TextViewTitlePrimary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/activityBackground</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/layout_margin_12</item>
+        <item name="android:paddingTop">@dimen/layout_margin_8</item>
+        <item name="android:paddingBottom">@dimen/layout_margin_8</item>
+        <item name="android:textColor">@color/Textcolor</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <!--模板页面二级标题-->
+    <style name="TextViewTitleSecondary">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white_1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/layout_margin_12</item>
+        <item name="android:paddingTop">@dimen/layout_margin_8</item>
+        <item name="android:paddingBottom">@dimen/layout_margin_8</item>
+        <item name="android:textColor">@color/Textcolor</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--模板页面三级标题-->
+    <style name="TextViewTitleThird">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white_1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">@dimen/layout_margin_12</item>
+        <item name="android:paddingTop">@dimen/layout_margin_8</item>
+        <item name="android:paddingBottom">@dimen/layout_margin_8</item>
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <!--模板页面Linearlayout-->
+    <style name="LinearlayoutOutside">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white_1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <!--模板页面Linearlayout_todo-->
+    <style name="Linearlayout_todo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white_1</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:padding">@dimen/layout_margin_12</item>
+    </style>
+    <!--模板页面左侧TextView_todo-->
+    <style name="TextView_todo">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxWidth">250dp</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/Textcolor</item>
+    </style>
+    <!--模板页面左侧TextView-->
+    <style name="TextViewLeft">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_12</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_8</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_8</item>
+        <item name="android:maxWidth">250dp</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/colorTitle</item>
+    </style>
+    <!--模板页面右侧TextView-->
+    <style name="TextViewRight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_8</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_12</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_8</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/Textcolor</item>
+    </style>
+    <!--模板页面右侧EditText-->
+    <style name="EditTextRight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/layout_margin_8</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_12</item>
+        <item name="android:layout_marginBottom">@dimen/layout_margin_8</item>
+        <item name="android:textSize">@dimen/text_size_normal</item>
+        <item name="android:textColor">@color/Textcolor</item>
+        <item name="android:background">@null</item>
+        <item name="android:editable">false</item>
+    </style>
+    <!--Item中间的线-->
+    <style name="ViewItemLine">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_margin_1</item>
+        <item name="android:layout_marginLeft">@dimen/layout_margin_12</item>
+        <item name="android:layout_marginRight">@dimen/layout_margin_12</item>
+        <item name="android:background">@color/lineColor</item>
+    </style>
+    <!--Item中间的线_todo-->
+    <style name="ViewItemLine_todo">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/layout_margin_1</item>
+        <item name="android:background">#F5F5F5</item>
+    </style>
+    <!--自定义dialog背景全透明无边框theme -->
+    <style name="MyDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+
+</resources>

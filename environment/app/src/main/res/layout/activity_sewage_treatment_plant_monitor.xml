@@ -1,0 +1,2084 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F6F6F6"
+              android:orientation="vertical">
+
+    <include layout="@layout/top_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_1"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/TextViewTitlePrimary"
+                android:text="基本信息"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="开始时间："/>
+
+                <TextView android:id="@+id/DT_START_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="结束时间："/>
+
+                <TextView android:id="@+id/DT_END_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="地点："/>
+
+                <TextView android:id="@+id/VC_LOCATION"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="检查人："/>
+
+                <TextView android:id="@+id/VC_JCR"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="执法证号："/>
+
+                <TextView android:id="@+id/VC_ZFZH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="记录人："/>
+
+                <TextView android:id="@+id/VC_JLR"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="被检查单位名称："/>
+
+                <TextView android:id="@+id/VC_BJCDWMC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="组织机构代码证号："/>
+
+                <TextView android:id="@+id/VC_ZZJGDMZH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="法定代表人："/>
+
+                <TextView android:id="@+id/VC_FDDBR"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="法定代表人身份证号："/>
+
+                <TextView android:id="@+id/VC_FDDBRSFZH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="现场负责人："/>
+
+                <TextView android:id="@+id/VC_XCFZR"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="现场负责人身份证号："/>
+
+                <TextView android:id="@+id/VC_XCFZRSFZH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="年龄："/>
+
+                <TextView android:id="@+id/NB_AGE"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="工作单位："/>
+
+                <TextView android:id="@+id/VC_GZDW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="职务："/>
+
+                <TextView android:id="@+id/VC_DUTY"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="与本案关系："/>
+
+                <TextView android:id="@+id/VC_YBAGX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="地址："/>
+
+                <TextView android:id="@+id/VC_ADDRESS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="电话："/>
+
+                <TextView android:id="@+id/VC_TELEPHONE"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="邮政编码："/>
+
+                <TextView android:id="@+id/VC_YZBM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其它参加人姓名及工作单位(地址)："/>
+
+                <TextView android:id="@+id/CL_QTCJRXMJGZDW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环保单位名称："/>
+
+                <TextView android:id="@+id/VC_HBDWMC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环保单位类型："/>
+
+                <TextView android:id="@+id/VC_HBDWLX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环境监察类型："/>
+
+                <TextView android:id="@+id/VC_HJJCLX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否确认证件："/>
+
+                <TextView android:id="@+id/VC_SFQRZJ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否申请回避："/>
+
+                <TextView android:id="@+id/VC_SFSQHB"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextViewTitlePrimary"
+                android:text="企业概况"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监察地点市："/>
+
+                <TextView android:id="@+id/VC_JCDDS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监察地点县："/>
+
+                <TextView android:id="@+id/VC_JCDDX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监察地点镇："/>
+
+                <TextView android:id="@+id/VC_JCDDZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="建设时间："/>
+
+                <TextView android:id="@+id/DT_CONSTRUCTION_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="运行时间："/>
+
+                <TextView android:id="@+id/DT_RUN_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="设计处理能力："/>
+
+                <TextView android:id="@+id/VC_S_SJCLNL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="实际处理能力："/>
+
+                <TextView android:id="@+id/VC_J_SJCLNL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否分期建设："/>
+
+                <TextView android:id="@+id/VC_SFFQJS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="配套网管是否已全部建成："/>
+
+                <TextView android:id="@+id/VC_PTWGSFYQBJC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="运行模式："/>
+
+                <TextView android:id="@+id/VC_YXMS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="运营单位："/>
+
+                <TextView android:id="@+id/VC_YYDW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextViewTitlePrimary"
+                android:text="环保手续及制度执行情况"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="批准时间："/>
+
+                <TextView android:id="@+id/DT_PZ_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="批准单位："/>
+
+                <TextView android:id="@+id/VC_PZDW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="立项批复文号："/>
+
+                <TextView android:id="@+id/VC_HB_LXPFWH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否办理环评手续："/>
+
+                <TextView android:id="@+id/DT_HB_SFBLHPSX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="开工建设时间："/>
+
+                <TextView android:id="@+id/VC_HB_KGJS_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环境影响评价报告类型："/>
+
+                <TextView android:id="@+id/VC_HB_HJYXPJBGLX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环评编制单位："/>
+
+                <TextView android:id="@+id/VC_HB_HPBZDW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="编制时间："/>
+
+                <TextView android:id="@+id/DT_HB_BZSJ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环评审批部门："/>
+
+                <TextView android:id="@+id/VC_HB_HPSPBM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="审批时间："/>
+
+                <TextView android:id="@+id/DT_HB_HPSP_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="生产试运行的审批部门："/>
+
+                <TextView android:id="@+id/VC_HB_SCSYXDSPBM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="审批时间："/>
+
+                <TextView android:id="@+id/DT_HB_SCSP_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="审批文号："/>
+
+                <TextView android:id="@+id/VC_HB_SPWH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否通过环保竣工验收："/>
+
+                <TextView android:id="@+id/VC_HB_SFTGHBJGYS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="验收时间："/>
+
+                <TextView android:id="@+id/DT_HB_YS_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="组织验收部门："/>
+
+                <TextView android:id="@+id/VC_HB_ZZYSBM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="未验收情况说明："/>
+
+                <TextView android:id="@+id/CL_HB_WYSQKSM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否在原址进行过改扩建："/>
+
+                <TextView android:id="@+id/VC_KJ_SFZYZJXGGKJ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="改扩建时间："/>
+
+                <TextView android:id="@+id/DT_KJ_GKJ_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="批准立项部门："/>
+
+                <TextView android:id="@+id/VC_KJ_PZLXBM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="立项批复文号："/>
+
+                <TextView android:id="@+id/VC_KJ_LXPFWH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否办理环评手续："/>
+
+                <TextView android:id="@+id/VC_KJ_SFBLHPSX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="环评审批部门："/>
+
+                <TextView android:id="@+id/VC_KJ_HPSPBM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="审批时间："/>
+
+                <TextView android:id="@+id/DT_KJ_HPSP_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="改扩建生产试运行审批部门："/>
+
+                <TextView android:id="@+id/VC_KJ_GKJSCSYXSPBM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="审批时间："/>
+
+                <TextView android:id="@+id/DT_KJ_GKJYXSP_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="审批文号："/>
+
+                <TextView android:id="@+id/VC_KJ_SPWH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否通过环保竣工验收："/>
+
+                <TextView android:id="@+id/VC_KJ_SFTGHBJGYS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="验收时间："/>
+
+                <TextView android:id="@+id/DT_KJ_YS_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="组织验收部门："/>
+
+                <TextView android:id="@+id/VC_KJ_ZZYSBM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="未验收的情况说明："/>
+
+                <TextView android:id="@+id/CL_KJ_WYSQKSM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextViewTitlePrimary"
+                android:text="污染治理设施建设及运行情况"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="进水口COD："/>
+
+                <TextView android:id="@+id/VC_JSKCOD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="进水口NH3-N："/>
+
+                <TextView android:id="@+id/VC_JSKNH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="进水口BOD5："/>
+
+                <TextView android:id="@+id/VC_JSKBOD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="进水口SS："/>
+
+                <TextView android:id="@+id/VC_JSKSS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="进水口总磷："/>
+
+                <TextView android:id="@+id/VC_JSKZL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="进水口总氮："/>
+
+                <TextView android:id="@+id/VC_JSKZD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="进水口粪大肠菌："/>
+
+                <TextView android:id="@+id/VC_JSKFDCJ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="进水口重金属及砷："/>
+
+                <TextView android:id="@+id/VC_JSKZJSJS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出水口COD："/>
+
+                <TextView android:id="@+id/VC_CSKCOD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出水口NH3-N："/>
+
+                <TextView android:id="@+id/VC_CSKNH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出水口BOD5："/>
+
+                <TextView android:id="@+id/VC_CSKBOD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出水口SS："/>
+
+                <TextView
+                    android:id="@+id/VC_CSKSS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出水口总磷："/>
+
+                <TextView android:id="@+id/VC_CSKZL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出水口总氮："/>
+
+                <TextView android:id="@+id/VC_CSKZD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出水口粪大肠菌："/>
+
+                <TextView android:id="@+id/VC_CSKFDCJ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="污水处理单位耗电量："/>
+
+                <TextView android:id="@+id/VC_WSCLDWHDL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="耗电量是否符合逻辑关系："/>
+
+                <TextView android:id="@+id/VC_HDLSFFHLJGX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="尾水排放去向："/>
+
+                <TextView android:id="@+id/VC_WSPFQX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否涉及饮用水源地："/>
+
+                <TextView android:id="@+id/VC_SFSJYYSYD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="水质级别："/>
+
+                <TextView android:id="@+id/VC_SZJB"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否私设暗渠、沟渠、水渠等偷排、直排、漏排等："/>
+
+                <TextView android:id="@+id/VC_SFSSAGGQSBDTPZPLP"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="情况说明："/>
+
+                <TextView android:id="@+id/CL_QKSM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出水口是否规范化设置："/>
+
+                <TextView android:id="@+id/VC_CSKSFGFHSZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其它情况说明："/>
+
+                <TextView android:id="@+id/CL_QTQKSM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="执行《城镇污水处理厂污染物排放标准GB18918-2002》几级标准："/>
+
+                <TextView android:id="@+id/VC_ZXJJBZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="近期监测是否超标："/>
+
+                <TextView android:id="@+id/VC_JQJCSFCB"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="超标污染因子："/>
+
+                <TextView android:id="@+id/VC_CBWRYZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="超标倍数："/>
+
+                <TextView android:id="@+id/VC_CBBS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监测单位："/>
+
+                <TextView android:id="@+id/VC_JCDW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监测时间："/>
+
+                <TextView android:id="@+id/DT_JC_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否有消毒设施："/>
+
+                <TextView android:id="@+id/VC_SFYXDSS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="消毒方式："/>
+
+                <TextView android:id="@+id/VC_XDFS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="格栅机是否正常使用："/>
+
+                <TextView android:id="@+id/VC_GZJSFZCSY"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="脱泥机使用情况："/>
+
+                <TextView android:id="@+id/VC_TNJSYQK"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="脱水污泥年产生量："/>
+
+                <TextView android:id="@+id/VC_TSWNNCSL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="年处置总量："/>
+
+                <TextView android:id="@+id/VC_NCZZL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="污泥处置方式："/>
+
+                <TextView android:id="@+id/VC_WNCZFS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其它污泥处置方式："/>
+
+                <TextView android:id="@+id/VC_QTWNCZFS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否符合《城镇污水处理厂污染物排放便准GB1989-2002》中表6的标准要求："/>
+
+                <TextView android:id="@+id/VC_SFFHBZYQ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="堆放、运输、处理方式是否符合环评及批复要求："/>
+
+                <TextView android:id="@+id/VC_DFYSCLFSSFFHHPJPFYQ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="不符合情况描述："/>
+
+                <TextView android:id="@+id/VC_BFHQKMS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否经有资质的单位鉴定："/>
+
+                <TextView android:id="@+id/VC_SFJYZZDDWJXWXFWJD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="鉴定单位："/>
+
+                <TextView android:id="@+id/VC_JDDW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="污泥危废处理方式："/>
+
+                <TextView android:id="@+id/VC_WNWFCLFS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否符合环评及批复的相关要求："/>
+
+                <TextView android:id="@+id/VC_SFFHHPJPFDXGYQ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="不符合情况描述："/>
+
+                <TextView android:id="@+id/VC_WNWF_BFHQKMS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="危险废物台帐是否健全规范："/>
+
+                <TextView android:id="@+id/VC_WXFWTZSFJQGF"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="所有产生及处置情况是否向环保部门申报："/>
+
+                <TextView android:id="@+id/VC_SYCSJCZQKSFXHBBMSB"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否制订了《危险废物意外事故防范措施和应急预案》："/>
+
+                <TextView android:id="@+id/VC_SFZDLWXFWYWSGFFCSHYJFA"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="危险废物存放库或场地是否设有标识："/>
+
+                <TextView android:id="@+id/VC_WXFWCFKHCDSFSYBS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否符合危险废物存储规范："/>
+
+                <TextView android:id="@+id/VC_SFFHWXFWCCGF"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否存在危险废物与一般固废混堆："/>
+
+                <TextView android:id="@+id/VC_SFCZWXFWYYBGFHD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="在厂内临时堆放堆存时间是否超过一年："/>
+
+                <TextView android:id="@+id/VC_ZCNYSCFDCSJSFCGYN"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="如转移出厂是否执行危险废物转移联单制度："/>
+
+                <TextView android:id="@+id/VC_RZNCCSFZXWXFWZYLDZD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="运输车辆具有相关资质："/>
+
+                <TextView android:id="@+id/VC_YSCLJYXGZZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="运输量："/>
+
+                <TextView android:id="@+id/VC_YSL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="批次："/>
+
+                <TextView android:id="@+id/VC_PC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="接收单位是否具有危废经营许可证："/>
+
+                <TextView android:id="@+id/VC_JSDWSFJYWFJYXKZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="实际处置方式："/>
+
+                <TextView android:id="@+id/VC_SJCZFS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="臭气源："/>
+
+                <TextView android:id="@+id/VC_CQY"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其它臭气源："/>
+
+                <TextView android:id="@+id/VC_QTCQY"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="恶臭治理对策措施及设施是否落实："/>
+
+                <TextView android:id="@+id/VC_ECZLDCCSJSSSFLS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="未落实情况描述："/>
+
+                <TextView android:id="@+id/VC_ECWLSQKMS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="噪声源："/>
+
+                <TextView android:id="@+id/VC_ZSY"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其它噪声源："/>
+
+                <TextView android:id="@+id/VC_QTZSY"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="降噪措施是否落实："/>
+
+                <TextView android:id="@+id/VC_JZCSSFLS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="未落实情况描述："/>
+
+                <TextView android:id="@+id/VC_JZWLSQKMS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="噪声近期监测是否达标："/>
+
+                <TextView android:id="@+id/VC_ZSJQJCSFDB"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监测单位："/>
+
+                <TextView android:id="@+id/VC_ZS_JCDW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监测时间："/>
+
+                <TextView android:id="@+id/DT_ZSJC_TIME"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="该厂是否按环保部门要求安装了在线监测设备："/>
+
+                <TextView android:id="@+id/VC_GCSFAHBBMYQAZLZXJCSB"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="取样点的设置是否符合国家要求："/>
+
+                <TextView android:id="@+id/VC_QYDDSZSFFHGJYQ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监测设备是否进行了比对验收："/>
+
+                <TextView android:id="@+id/VC_JCSBSFJXLBDYS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="运行是否正常："/>
+
+                <TextView android:id="@+id/VC_YXSFZC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="工作人员是否取得环保部上岗培训的资格证书："/>
+
+                <TextView android:id="@+id/VC_GZRYSFQDHBBSGPXDZGZS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="运维台帐是否规范："/>
+
+                <TextView android:id="@+id/VC_YWTZSFGF"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="该厂中控系统是否运行正常："/>
+
+                <TextView android:id="@+id/VC_GCZKXTSFYXZC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="中控系统曲线、数据存储是否能达到12个月："/>
+
+                <TextView android:id="@+id/VC_ZKXTQXSJCCSFDDSEGY"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="中控数据与在线数据是否一致："/>
+
+                <TextView android:id="@+id/VC_ZKSJYZXSJSFYZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否与环保部门联网："/>
+
+                <TextView android:id="@+id/VC_SFYHBBMLW"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="运维台帐是否规范："/>
+
+                <TextView android:id="@+id/VC_ZK_YWTZSFGF"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <TextView
+                style="@style/TextViewTitlePrimary"
+                android:text="环境风险及应急管理"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否落实环评及批复要求的风险防范对策措施："/>
+
+                <TextView android:id="@+id/VC_SFLSHPJPFYQDFXFFDCCS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="未落实情况描述："/>
+
+                <TextView android:id="@+id/VC_HJFX_WLSQKMS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否编制《突发环境时间应急预案》："/>
+
+                <TextView android:id="@+id/VC_SFBZTFHJSJYJYA"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否对《突发环境时间应急预案》进行评估，并备案："/>
+
+                <TextView android:id="@+id/VC_SFDTFHJSJYJYAJXPGBBA"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否按预算要求进行年度应急演练："/>
+
+                <TextView android:id="@+id/VC_SFAYAYQJXNDYJYL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否储备应急物资："/>
+
+                <TextView android:id="@+id/VC_SFCBYJWZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="其它环保部门检查情况："/>
+
+                <TextView android:id="@+id/CL_QTHBBMJCQK"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="存在主要问题："/>
+
+                <TextView android:id="@+id/CL_CZZYWT"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View style="@style/ViewItemLine"/>
+
+            <LinearLayout style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="监察要求："/>
+
+                <TextView android:id="@+id/CL_JCYQ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

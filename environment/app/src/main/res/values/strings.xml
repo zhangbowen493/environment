@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">云南省移动执法系统</string>
+    <string name="common_loading">努力加载中，请稍候</string>
+    <string name="home_page">首页</string>
+    <string name="pollution_source_page">污染源信息</string>
+    <string name="paperless_office_page">无纸化办公</string>
+    <string name="my_page">我的</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">请输入用户名</string>
+    <string name="prompt_password">请输入密码</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_basic_info_list">BasicInfoList</string>
+</resources>

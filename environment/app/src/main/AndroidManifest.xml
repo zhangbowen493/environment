@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huaxin.yunnan.environment">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    //照相权限
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!-- //地图包、搜索包需要的基础权限 -->
+    <!-- 允许程序打开网络套接字 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 允许程序设置内置sd卡的写权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许程序获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许程序访问WiFi网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 允许程序读写手机状态和身份 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 允许程序访问CellID或WiFi热点来获取粗略的位置 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 用于申请调用A-GPS模块 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <!-- 用于申请获取蓝牙信息进行室内定位 -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/no_title">
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="bab664a4a571b90a3a140dcdd3a8aefe" />
+
+        <service android:name="com.amap.api.location.APSService"/>
+        <receiver
+            android:name=".receiver.MyXGPushBaseReceiver"
+            android:exported="true">
+            <intent-filter>
+
+                <!-- 接收消息透传 -->
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE" />
+                <!-- 监听注册、反注册、设置/删除标签、通知被点击等处理结果 -->
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.WelcomeActivity"
+            android:launchMode="singleInstance"
+            android:theme="@style/welcome">
+            android:theme="@style/welcome"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.PwdChangeActivity"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.citylist.CityListActivity"
+            android:theme="@style/no_title" />
+        <!-- <activity android:name=".activity.WelcomeActivity"></activity> -->
+        <activity android:name=".activity.maillist.MailListActivity" />
+        <activity android:name=".activity.maillist.DeparterActivity" />
+        <activity android:name=".activity.maillist.DetailInformationActivity" />
+        <activity android:name=".activity.meaaagelog.MessageLogActivity" />
+        <activity
+            android:name=".activity.pollution.BasicInfoListActivity"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.pollution.EnvitronmentAttributeActivity"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.pollution.AttributeManagementActivity"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.pollution.WasteWaterPollutionDischargeActivity"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.pollution.FlueGasPollutionInfoActivity"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.pollution.FlueGasManagementFacilitiesActivity"
+            android:theme="@style/no_title" />
+        <activity
+            android:name=".activity.pollution.NoiseSourceInfoActivity"
+            android:theme="@style/no_title" />
+        <activity android:name=".activity.pollution.EssentialInformationActivity" />
+        <activity android:name=".activity.pollution.WasteWaterOutFallActivity" />
+        <activity android:name=".activity.pollution.WastewaterTreatmentActivity" />
+        <activity android:name=".activity.pollution.WasteGasPollutionActivity" />
+        <activity android:name=".activity.pollution.SolidWasteInfoActivity" />
+        <activity android:name=".activity.pollution.NosiceSourceInfoActivity" />
+        <activity android:name=".activity.pollution.ProductEquipInfoActivity" />
+        <activity android:name=".activity.pollution.FileInfoActivity" />
+        <activity android:name=".activity.pollution.PollutionMaterialsActivity" />
+        <activity android:name=".activity.pollution.MajorProductActivity" />
+        <activity android:name=".activity.pollution.PollutionChangeActivity" />
+        <activity android:name=".activity.taskmanager.TaskNameActivity" />
+        <activity android:name=".activity.taskmanager.TaskManagerListActivity" />
+        <activity android:name=".activity.taskmanager.LawTemplateActivity" />
+        <activity
+            android:name=".activity.template.AmmoniaTemplateActivity"
+            android:theme="@style/no_title" />
+        <activity android:name=".activity.template.FireElectricityEnterpriseTemplateActivity" />
+        <activity android:name=".activity.template.CopperSmeltingTemplateActivity" />
+        <activity android:name=".activity.template.WaterElectricityTemplateActivity" />
+        <activity android:name=".activity.template.PapermakingTemplateActivity" />
+        <activity android:name=".activity.template.PollutionSurveryTakeDownActivity" />
+        <activity android:name=".activity.template.EvidenceMaterialActivity" />
+        <activity android:name=".activity.template.SewageTreatmentPlantMonitorActivity" />
+        <activity android:name=".activity.template.VokingIndustryMonitorActivity" />
+        <activity android:name=".activity.template.InorganicPhosphorusChemicalActivity" />
+        <activity android:name=".activity.template.MetalBeneficationActivity" />
+        <activity android:name=".activity.template.TinBeneficationActivity" />
+        <activity android:name=".activity.template.CementIndustryActivity" />
+        <activity android:name=".activity.template.LeadActivity" />
+        <activity android:name=".activity.template.AutomaticOnlineActivity" />
+        <activity android:name=".activity.template.SewageChargesActivity" />
+        <activity android:name=".activity.template.IronSteelIndustryActivity" />
+        <activity android:name=".activity.template.EnvironmentActivity" />
+        <activity android:name=".activity.template.LiveStockFarmActivity" />
+        <activity android:name=".activity.template.RecordActivity" />
+        <activity android:name=".activity.collectevidence.CollectEvidenceActivity" />
+        <activity android:name=".activity.collectevidence.PictureListActivity" />
+        <activity android:name=".activity.todo.CommentAgreeActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.zz.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".activity.todo.ResubmitActivity"
+            />
+        <activity android:name=".activity.todo.ReviewHistoryActivity" />
+        <activity android:name=".activity.todo.RejectActivity" />
+        <activity android:name=".activity.todo.ChoiceActivity" />
+        <activity android:name=".activity.todo.SelectProcessActivity" />
+        <activity android:name=".activity.todo.PendAuditActivity" />
+        <activity android:name=".activity.todo.SelectManagerActivity" />
+        <activity android:name=".activity.todo.RejectEditActivity" />
+        <activity android:name=".activity.todo.ToDoActivity" />
+        <activity android:name=".activity.collectevidence.ReviewActivity" />
+        <activity
+            android:name=".activity.meaaagelog.MessageDetailActivity"
+            android:exported="true" />
+        <activity android:name=".activity.map.LocationActivity"></activity>
+
+
+        <!-- 【必须】 (2.30及以上版新增)展示通知的activity -->
+        <!-- 【注意】 如果被打开的activity是启动模式为SingleTop，SingleTask或SingleInstance，请根据通知的异常自查列表第8点处理 -->
+        <activity
+            android:name="com.tencent.android.tpush.XGPushActivity"
+            android:exported="false">
+            <intent-filter>
+
+                <!-- 若使用AndroidStudio，请设置android:name="android.intent.action" -->
+                <action android:name="android.intent.action" />
+            </intent-filter>
+        </activity>
+        <!-- 【必须】 通知service，此选项有助于提高抵达率 -->
+        <service
+            android:name="com.tencent.android.tpush.rpc.XGRemoteService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="${applicationId}.PUSH_ACTION" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

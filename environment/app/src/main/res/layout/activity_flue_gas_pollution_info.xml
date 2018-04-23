@@ -1,0 +1,405 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activityBackground"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_title"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white_1"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/layout_margin_8"
+                android:background="@color/activityBackground"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="污染源编号："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_WRYBH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="排放口编号："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_PFKBH"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="排放口名称："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_PFKMC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="排放口位置："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_PFKWZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="执行标准："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_ZXBJ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="排放口类型："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_PFKLX"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="排放规律："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_PFGL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="排放口高度："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_PFKGD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="排气筒截取面积："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_PQTJQMJ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="出口内径："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_CKNJ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="燃料种类："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_RLZL"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="燃烧方式："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_RSFS"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="车间工段名称："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_CJGDMC"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="是否安装在线监控设备："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_SFAZZXJKSB"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="精度（度）："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_JDD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="精度（分）："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_JDF"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="精度（秒）："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_JDM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="纬度（度）："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_WDD"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="纬度（分）："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_WDF"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="纬度（秒）："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_WDM"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+            <View
+                style="@style/ViewItemLine"
+                />
+
+            <LinearLayout
+                style="@style/LinearlayoutOutside">
+
+                <TextView
+                    style="@style/TextViewLeft"
+                    android:text="备注："
+                    />
+
+                <TextView
+                    android:id="@+id/tv_BZ"
+                    style="@style/TextViewRight"
+                    android:text=""/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_city"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:drawablePadding="6dp"
+                    android:drawableRight="@drawable/city_choose"
+                    android:text="正在获取位置..."
+                    android:textColor="@color/white_1"
+                    android:textSize="17sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:layout_marginTop="8dp"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="11dp"
+                    android:layout_marginBottom="11dp"
+                    android:layout_marginLeft="14dp"
+                    android:drawableLeft="@drawable/left"
+                    android:drawablePadding="5dp"
+                    android:text="移动执法"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    >
+
+                    <Button
+                        android:id="@+id/bt_field_forensics"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:drawableTop="@drawable/field_forensics"
+                        android:text="现场取证"
+                        android:textSize="13sp" />
+
+                    <Button
+                        android:id="@+id/bt_draft"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:drawableTop="@drawable/real_time_video_surveillance"
+                        android:text="实时视频"
+                        android:textSize="13sp" />
+
+                    <Button
+                        android:id="@+id/bt_online_monitor"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:drawableTop="@drawable/online_monitor"
+                        android:text="在线监控"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/bt_todo"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:drawableTop="@drawable/todo"
+                        android:text="公文待办"
+                        android:textSize="13sp" />
+
+                    <Button
+                        android:id="@+id/bt_task_management"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:drawableTop="@drawable/task_management"
+                        android:text="任务办理"
+                        android:textSize="13sp" />
+
+                    <Button
+                        android:visibility="invisible"
+                        android:id="@+id/bt_real_time_video_surveillance"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:drawableTop="@drawable/real_time_video_surveillance"
+                        android:text="实时视频"
+                        android:textSize="13sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+</RelativeLayout>

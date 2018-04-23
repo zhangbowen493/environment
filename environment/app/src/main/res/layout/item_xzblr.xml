@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="36dp">
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张三"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/tv_department"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="云南省环境监察总队"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
